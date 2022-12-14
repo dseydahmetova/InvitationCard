@@ -1,0 +1,82 @@
+/* Insert any CSS code below here */
+
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: rgb(252, 209, 215);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(243, 137, 75),
+    rgb(252, 209, 215)
+  );
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: italic;
+  color: #800000;
+  padding-top: 15px;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: rgb(82, 12, 12);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+#outside-pic {
+  width: 500px;
+  height: 500px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: rgb(251, 253, 255);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: solid;
+}
+
+#inside-title {
+  color: #191970;
+  font-family: Courier;
+  font-size: 16pt;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#inside-pic {
+  width: 500px;
+  height: 400px;
+}
+
+#message {
+  color: #191970;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+button {
+  background-color: rgb(250, 193, 154);
+  color: black;
+  border: 3px solid #fd7676;
+  height: 35px;
+  font-family: Georgia;
+  border-radius: 25%;
+}
+.name {
+  font-family: "Sofia", sans-serif;
+}
